@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Keep private/admin-style folders out of search results if they exist
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+
+Sitemap: https://maroofingsolutions.co.uk/sitemap.xml

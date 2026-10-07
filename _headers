@@ -1,0 +1,8 @@
+# Netlify/Vercel-style security headers helper
+# Use this only if your host supports a _headers file.
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
